@@ -1,5 +1,5 @@
 pipeline {
-    agent none
+    agent any
     environment {
         NODE_VERSION = '18.16.0'
         NETLIFY_SITE_ID = 'e961e065-4759-410e-b42d-7e15c36175ea'
